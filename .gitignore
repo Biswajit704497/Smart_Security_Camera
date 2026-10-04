@@ -1,0 +1,18 @@
+# Virtual environment and Python cache
+myenv/
+__pycache__/
+*.pyc
+
+# Downloaded face models (re-downloaded automatically, ~40 MB)
+models/
+
+# Private data - never publish face images or recordings
+known_faces/
+unknown_faces/
+motion_snapshots/
+recordings/
+face_log.csv
+
+# Secrets and editor files
+.env
+.vscode/
