@@ -10,8 +10,8 @@ from face_tools import build_face_monitor, draw_faces
 
 # ----------------------------- CONFIG ---------------------------------
 CAMERA_INDEX = 0
-FRAME_WIDTH = 1280
-FRAME_HEIGHT = 720
+FRAME_WIDTH = 640
+FRAME_HEIGHT = 480
 
 # --- Detection / box quality ---
 BLUR_KERNEL_SIZE = (7, 7)
